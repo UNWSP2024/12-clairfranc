@@ -185,34 +185,26 @@ class MyGUI:
     def show_choice(self):
         t = 0
 
-        self.message = 'You selected:\n'
 
         if self.cb_var1.get() == 1:
-            self.message = self.message + '1\n'
             t += 30
 
         if self.cb_var2.get() == 1:
-            self.message = self.message + '2\n'
             t += 20
 
         if self.cb_var3.get() == 1:
-            self.message = self.message + '3\n'
             t += 40
 
         if self.cb_var4.get() == 1:
-            self.message = self.message + '4\n'
             t += 100
 
         if self.cb_var5.get() == 1:
-            self.message = self.message + '5\n'
             t += 35
 
         if self.cb_var6.get() == 1:
-            self.message = self.message + '6\n'
             t += 200
 
         if self.cb_var7.get() == 1:
-            self.message = self.message + '7\n'
             t += 20
 
         total = str(t)
